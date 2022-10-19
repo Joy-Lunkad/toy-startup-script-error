@@ -9,6 +9,9 @@ pip install wandb && \
 cd toy-startup-script-error && \
 python3 toy_control.py' 
 
+# git clone https://github.com/Joy-Lunkad/toy-startup-script-error.git
+# cd toy-startup-script-error 
+
 # gcloud compute tpus tpu-vm create node-1 --zone=us-central1-f --accelerator-type=v2-8 --version=tpu-vm-base --preemptible --metadata-from-file=startup-script=toy_startup_script.sh
 
 # gcloud compute tpus tpu-vm ssh node-1  --zone us-central1-f
