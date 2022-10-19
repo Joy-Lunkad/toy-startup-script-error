@@ -7,7 +7,7 @@ pip install "jax[tpu]>=0.2.16" -f https://storage.googleapis.com/jax-releases/li
 git clone https://github.com/Joy-Lunkad/toy-startup-script-error.git && \
 pip install wandb && \
 cd toy-startup-script-error && \
-python3 toy_control.py' 
+python3 toy_controller.py' 
 
 # git clone https://github.com/Joy-Lunkad/toy-startup-script-error.git
 # cd toy-startup-script-error 
