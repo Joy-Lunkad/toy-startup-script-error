@@ -1,5 +1,5 @@
 # toy-startup-script-error
-A toy example to show how jax cannot initialize tpus if the program is executed by a startup-script
+A toy example to show how jax cannot initialize tpus only if the program is executed by a startup-script
 
 # To recreate the error
 1. On the cloud shell terminal run
